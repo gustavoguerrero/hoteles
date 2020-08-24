@@ -4,7 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="estilos.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
@@ -12,48 +13,106 @@
   </head>
   <body>
     <header> 
-			<div class="jumbotron" align="center">
-			  <h1> Hoteles</h1>
-			  <p>Practico de Bootrap</p>
+			<div class="jumbotron">
+			<h1> Hoteles</h1>
 			</div>
 	</header>
 	<div class="container">
 		<div class="row">
-			<div class="col-sm">
-				<h1>¿Quienes Somos?</h1>
+			<div class="col">
+				<h3>¿Quienes Somos?</h3>
 				<p>Somos una web dedicada a que encuentres el mejor hospedaje de acuerdo a lo que buscas.<br>Sin importar tu perfil económico, social o cultural.</p>
-				<button type="button" class="btn btn-info btn-sm" role="button" aria-pressed="true">+ Info</button>
 			</div>
-			<div class="col-sm">
-				<h1>¿Cómo Reservo?</h1>
+			<div class="col">
+				<h3>¿Cómo Reservo?</h3>
 				<p>Contamos con un sistema de reservas que permite cancelar hasta 48 hs previas del ingreso.<br>Además contamos con diversas formas de pago online para que lo puedas hacer desde tu computadora o movil.</p>
-				<button type="button" class="btn btn-info btn-sm" role="button" aria-pressed="true">+ Info</button>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-sm">
-				<h1>Hotel Abassador</h1>
-				<p>Hotel con excelentes características ubicado en la Rambla de Montevideo.<br>EL mismo, se caracteriza por su ambiente descontracturado acorde a su público de mediana edad.</p>
-				<button type="button" class="btn btn-info btn-sm" role="button" aria-pressed="true">+ Info</button>
+		<div class="d-flex flex-wrap flex-row">
+			<div class=" card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h3>Hotel Abassador</h3>
+					<p>Hotel con excelentes características ubicado en la Rambla de Montevideo.<br>EL mismo, se caracteriza por su ambiente descontracturado acorde a su público de mediana edad.</p>
+				</div>
+				<div>
+					<button type="button" class="btn btn-info btn-reserva" role="button" aria-pressed="true">+ Info</button>
+				</div>
 			</div>
-			<div class="col-sm">
-				<h1>Hotel Carretero</h1>
-				<p>El clásico de los mochileros que buscan habitaciones compartidas, ambientes comunes y conversaciones con otro viajeros en busca de consejos y experiencias de viajes.</p>
-				<button type="button" class="btn btn-info btn-sm" role="button" aria-pressed="true">+ Info</button>
+			<div class=" card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h3>Hotel Carretero</h3>
+					<p>El clásico de los mochileros que buscan habitaciones compartidas, ambientes comunes y conversaciones con otro viajeros en busca de consejos y experiencias de viajes.</p>
+				</div>
+				<div>
+					<button type="button" class="btn btn-info btn-reserva" role="button" aria-pressed="true">+ Info</button>
+				</div>
 			</div>
-			<div class="col-sm">
-				<h1>Hotel Smart-Design</h1>
-				<p>Hotel con las últimas tendencias de la moda urbana y la automatización.<br>Todas sus habitaciones son smart suites que permiten la automatización y el manejo remoto de todos sus servicios.<br>Cuenta además con espacio de Co-Working que permite una exelente interación con equipos de trabajo.</p>
-				<button type="button" class="btn btn-info btn-sm" role="button" aria-pressed="true">+ Info</button>
+			<div class=" card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h3>Hotel Smart-Design</h3>
+					<p>Hotel con las últimas tendencias de la moda urbana y la automatización.<br>Todas sus habitaciones son smart suites que permiten la automatización y el manejo remoto de todos sus servicios.<br>Cuenta además con espacio de Co-Working que permite una exelente interación con equipos de trabajo.</p>
+				</div>
+				<div>	
+				<button type="button" class="btn btn-info btn-reserva" role="button" aria-pressed="true">+ Info</button>
+				</div>
+			</div>
+			<div class=" card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h3>Hotel en Atlantida</h3>
+					<p>Hotel ubicado en el Centro de Maldonado.<br>Hotel ubicado a pocos metros de la Ruta.</p>
+				</div>
+				<div>
+					<button type="button" class="btn btn-info btn-reserva" role="button" aria-pressed="true">+ Info</button>
+				</div>
+			</div>
+			<div class=" card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h3>Hotel en Punta del Este</h3>
+					<p>Hotel ubicado en el Centro de Maldonado.<br>Hotel ubicado a pocos metros de la parado 8 de la Brava.</p>
+				</div>
+				<div>
+					<button type="button" class="btn btn-info btn-reserva" role="button" aria-pressed="true">+ Info</button>
+				</div>
+			</div>
+			<div class=" card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h3>Hotel Casino</h3>
+					<p>Si te gusta la timba es por aca.</p>
+				</div>
+				<div>
+					<button type="button" class="btn btn-info btn-reserva" role="button" aria-pressed="true">+ Info</button>
+				</div>
 			</div>
 		</div>
 	</div>
+
+	<footer>
+		<div class="row">
+			<div class="col-sm-4 d-flex flex-column " >
+				<a href="http://wwww.facebook.com">Facebook</a>
+				<a href="http://wwww.twitter.com">Twitter</a>
+				<a href="http://wwww.instagram.com">Instagram</a>
+			</div>
+			<div class="col-sm-4">
+				<address>
+					18 de julio 223, Montevideo, Uruguay
+					+59822445566
+					contacto@hoteles.com
+				</address>
+			</div>
+			<div class="col-sm-4 d-flex flex-column align-items-end">
+				<a href="http://wwww.facebook.com">Nosotros</a>
+				<a href="http://wwww.twitter.com">Precios</a>
+				<a href="http://wwww.instagram.com">Contacto</a>
+			</div>
+		</div>
+	</footer>
 	
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

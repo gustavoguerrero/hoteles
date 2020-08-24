@@ -1,53 +1,12 @@
-.encabezado{
-	color: rgb(163,209,209); 
-	background: #296969; 
-	display: inline-block; 
-	padding: 0.5em;
-	border-radius: 10px 10px 10px 10px; 
-	border: 3px dashed white;
-}
-
 @font-face {
 	font-family: "arial", "veredana";
 }
 
-ul{
-	list-style-type: none;
+p{
+	text-align: justify;
 }
 
-li{
-	background:; 
-	color:;
-	width:300px;
-	padding: 15px; 
-	list-style: none;
-}
-
-#registro{
-	background: #026b64;
-	border-radius: 6px 6px 0px 0px;
-	font-color: white;
-	border-bottom: 1px solid white;
+h1 {
 	text-align: center;
-}
-
-#campos{
-	background: #d6d6d4;
-	border-bottom: 1px solid white;
-	cursor: text;
-	text-align: left;
-
-}
-
-abbr{
-	text-decoration: none;
-}
-
-#enviar{
-	text-align: center;
-	background: #00a79d;
-	color: #026b64;
-	border-top: 1px solid white;
-	border-radius: 0px 0px 6px 6px;
-	cursor: pointer;
+	font-style:"bold";
 }

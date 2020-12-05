@@ -19,13 +19,16 @@ h1 {
 }
 
 .card-hotel{
-	flex: 2 150px;
-	padding: 2px 5px 2px 5px;
+	flex: 1 200px;
+	/*padding: 2px 5px;*/
 	margin-top: 10px;
 }
 
-.btn-reserva{
+
+.btn-reserva {
+
 	width: 100%;
+	border-radius: 0px;
 
 }
 

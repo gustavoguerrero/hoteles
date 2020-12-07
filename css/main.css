@@ -3,6 +3,7 @@
 	color: black;
 	text-align: center;
 	margin-top: 40px;
+	border-radius: 0px;
 }
 
 footer {
@@ -35,4 +36,15 @@ h1 {
 .footer-address-icon{
 
 	padding-right: 20px;
+}
+
+img {
+	border-radius: 0px;
+}
+
+#carousel {
+	height: 30vh;
+	size: auto;
+	object-fit: cover;
+	border-radius: 4px;
 }

@@ -44,7 +44,7 @@ img {
 
 #carousel {
 	height: 30vh;
-	size: auto;
+	/*size: auto;*/
 	object-fit: cover;
 	border-radius: 4px;
 }

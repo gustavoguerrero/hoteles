@@ -44,7 +44,24 @@ img {
 
 #carousel {
 	height: 30vh;
-	/*size: auto;*/
+	size: auto;
 	object-fit: cover;
 	border-radius: 4px;
 }
+
+.carousel-caption {
+    position: ce; 
+    right: 15%;
+    top: 99px; /* Cambiar bottom por top y los píxeles que necesites */
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight:bold;
+	letter-spacing:1.5px;
+	border-radius:4px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Añadir para conseguir el fondo con opacidad */
+}
+

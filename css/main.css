@@ -49,11 +49,10 @@ img {
 	border-radius: 4px;
 }
 
-.carousel-caption {
-    position: ce; 
+.carousel-caption { 
     right: 15%;
     top: 99px; /* Cambiar bottom por top y los píxeles que necesites */
-    left: 15%;
+    left: 15%;	
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -65,3 +64,6 @@ img {
     background-color: rgba(0, 0, 0, 0.5); /* Añadir para conseguir el fondo con opacidad */
 }
 
+.row {
+	margin-top: 15px;
+}

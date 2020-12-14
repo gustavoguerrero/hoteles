@@ -47,6 +47,8 @@
 			</ol>
 		</nav>
 		
+		<!-- banner carrousel -->
+
 		<div class="carousel slide" data-ride="carousel">
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
@@ -69,29 +71,39 @@
 		    </div>
 		  </div>
 		</div>
+		<!-- banner carrousel -->
 
-		<div class="card-deck">
-			<div class="card card-hotel justify-content-between">
-				<div class="card-body">
-				<h5 class="card-title">¿Quienes Somos?</h5>
-				<p class="card-text">Somos una web dedicada a que encuentres el mejor hospedaje de acuerdo a lo que buscas.<br>Sin importar tu perfil económico, social o cultural.</p>
-				</div>
-			</div>
-			<div class="card card-hotel justify-content-between">
-				<div class="card-body">
-				<h5 class="card-title">¿Cómo Reservo?</h5>
-				<p class="card-text">Contamos con un sistema de reservas que permite cancelar hasta 48 hs previas del ingreso.<br>Además contamos con diversas formas de pago online para que lo puedas hacer desde tu computadora o movil.</p>
-				</div>
-			</div>
-		</div>
-
-		<!--   CODIGO DEL BANNER
+		<!-- aca va ek quienes somos -->
 		<div class="row">
-			<div class="card card-hotel justify-content-between ">
-				 
-			</div> 
+			<div class="col-sm-4">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#somos" aria-expanded="false" aria-controls="multiCollapse1">¿Quienes Somos?</button>
+				
+			</div>
+
+			<div class="col-sm-4">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reservo" aria-expanded="false" aria-controls="multiCollapse1">¿Cómo Reservo?</button>
+				
+			</div>
 		</div>
-		-->
+
+
+		<div class="row">
+			<div class="col-sm-4 collapse multi-collapse" id="somos">
+				
+				<h5>¿Quienes Somos?</h5>
+				<p>Somos una web dedicada a que encuentres el mejor hospedaje de acuerdo a lo que buscas.<br>Sin importar tu perfil económico, social o cultural.</p>
+				
+			</div>
+			<div class="col-sm-4 collapse multi-collapse" id="reservo">
+				
+				<h5>¿Cómo Reservo?</h5>
+				<p>Contamos con un sistema de reservas que permite cancelar hasta 48 hs previas del ingreso.<br>Además contamos con diversas formas de pago online para que lo puedas hacer desde tu computadora o movil.</p>
+				
+			</div>
+		</div>
+
+		<!-- aca va ek quienes somos -->
+
 		<div class="card-columns">
 			<div class="card card-hotel">
 				<div class="card-header text-muted">Montevideo</div>

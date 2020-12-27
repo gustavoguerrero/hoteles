@@ -102,7 +102,7 @@
 			</div>
 		</div>
 
-		<!-- aca va ek quienes somos -->
+		<!-- fin de quienes somos -->
 
 		<div class="card-columns">
 			<div class="card card-hotel">
@@ -114,7 +114,8 @@
 					<p class="card-text">Hotel con excelentes características ubicado en la Rambla de Montevideo.<br>EL mismo, se caracteriza por su ambiente descontracturado acorde a su público de mediana edad.</p>
 				</div>
 				<div>
-					<button type="button" class="btn btn-info btn-reserva" role="button" aria-pressed="true">+ Info</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contacto">Contacto</button>
+					<button type="button" class="btn btn-primary btn-reserva" role="button" aria-pressed="true">Reservar</button>
 				</div>
 			</div>
 			<div class="card card-hotel">
@@ -126,7 +127,8 @@
 					<p>El clásico de los mochileros que buscan habitaciones compartidas, ambientes comunes y conversaciones con otro viajeros en busca de consejos y experiencias de viajes.</p>
 				</div>
 				<div>
-					<button type="button" class="btn btn-info btn-reserva" role="button" aria-pressed="true">+ Info</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contacto">Contacto</button>
+					<button type="button" class="btn btn-primary btn-reserva" role="button" aria-pressed="true">Reservar</button>
 				</div>
 			</div>
 			<div class="card card-hotel">
@@ -137,7 +139,8 @@
 					<p>Hotel con las últimas tendencias de la moda urbana y la automatización.<br>Todas sus habitaciones son smart suites que permiten la automatización y el manejo remoto de todos sus servicios.<br>Cuenta además con espacio de Co-Working que permite una exelente interación con equipos de trabajo.</p>
 				</div>
 				<div>	
-				<button type="button" class="btn btn-info btn-reserva" role="button" aria-pressed="true">+ Info</button>
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contacto">Contacto</button>
+				<button type="button" class="btn btn-primary btn-reserva" role="button" aria-pressed="true">Reservar</button>
 				</div>
 			</div>
 			<div class="card card-hotel">
@@ -148,7 +151,8 @@
 					<p>Hotel ubicado en el Centro de Maldonado.<br>Hotel ubicado a pocos metros de la Ruta.</p>
 				</div>
 				<div>
-					<button type="button" class="btn btn-info btn-reserva" role="button" aria-pressed="true">+ Info</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contacto">Contacto</button>
+					<button type="button" class="btn btn-primary btn-reserva" role="button" aria-pressed="true">Reservar</button>
 				</div>
 			</div>
 			<div class="card card-hotel">
@@ -159,7 +163,8 @@
 					<p>Hotel ubicado en el Centro de Maldonado.<br>Hotel ubicado a pocos metros de la parado 8 de la Brava.</p>
 				</div>
 				<div>
-					<button type="button" class="btn btn-info btn-reserva" role="button" aria-pressed="true">+ Info</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contacto">Contacto</button>
+					<button type="button" class="btn btn-primary btn-reserva" role="button" aria-pressed="true">Reservar</button>
 				</div>
 			</div>
 			<div class="card card-hotel">
@@ -170,11 +175,46 @@
 					<p>Si te gusta la timba es por aca.</p>
 				</div>
 				<div>
-					<button type="button" class="btn btn-info btn-reserva" role="button" aria-pressed="true">+ Info</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contacto">Contacto</button>
+					<button type="button" class="btn btn-primary btn-reserva" role="button" aria-pressed="true">Reservar</button>
 				</div>
 			</div>
 		</div>
+
+		<!-- MODAL -->
+
+		<div class="modal fade" id="contacto" trabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title"  id="exampleModalLabel">Contacto con el Hotel</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-labal="Close">
+							<span aria-hidden="true">&times;</span>
+						</button> 
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="form-group">
+								<label for="recipient-name" class="col-form-label">E-Mail:</label>
+								<input type="text" class="form-control" id="recipient-name">
+							</div>
+							<div class="form-group">
+								<label for="message-text" class="col-form-label">Mensaje:</label>
+								<textarea class="form-control" id="message-text"></textarea>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary">Enviar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- MODAL -->
+
 	</div>
+
 
 	<footer>
 		<div class="row">

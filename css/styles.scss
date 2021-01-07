@@ -1,0 +1,78 @@
+$blue: #42b9f5;
+
+@mixin margenes($top, $bottom){
+	margin-top: $top;
+	margin-bottom: $bottom;
+}
+
+#jumbotron{
+	background-color: $blue;
+	color: black;
+	text-align: center;
+	border-radius: 0px;
+	@include margenes (40px, 15px);
+}
+
+footer {
+	padding: 5px 5px 0px 5px;
+	background-color: $blue;
+	@include margenes (40px, 15px);
+}
+
+
+h1 {
+	/*text-align: center;*/
+	font-weight:bold;
+}
+
+.card-hotel{
+	flex: 1 200px;
+	/*padding: 2px 5px;*/
+	@include margenes (10px, 0px);
+}
+
+
+.btn-reserva {
+
+	width: 100%;
+	border-radius: 0px;
+	margin-top: 10px;
+}
+
+.footer-address-icon{
+
+	padding-right: 20px;
+}
+
+img {
+	border-radius: 0px;
+}
+
+#carousel {
+	height: 200px;
+	size: auto;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.carousel-caption { 
+    right: 15%;
+    top: 99px; /* Cambiar bottom por top y los píxeles que necesites */
+    left: 15%;	
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight:bold;
+	letter-spacing:1.5px;
+	border-radius:4px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Añadir para conseguir el fondo con opacidad */
+}
+
+.row {
+	margin-top: 15px;
+}
+.tab-content {
+	margin-top: 15px;
+}
